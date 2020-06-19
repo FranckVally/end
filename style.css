@@ -11,10 +11,12 @@ a,
 button {
   transition: all 0.3s ease-in-out;
   outline: 0 !important ;
+  font-size: 1rem;
 }
 a:hover {
   text-decoration: none;
   cursor: pointer;
+  background-color: #f3976c !important;
 }
 .bloc {
   width: 100%;
@@ -336,6 +338,7 @@ p {
   font-weight: 400;
   color: #575757 !important ;
 }
+
 .container {
   max-width: 1000px;
 }
@@ -452,6 +455,16 @@ h4 {
 .bg-presentation {
   background-image: url(img/image-de-presentation.jpg);
 }
+
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+  transition: all .3s ease-in-out;
+}
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -507,10 +520,7 @@ h4 {
     margin-left: 0;
     margin-right: 0;
   }
-  .site-navigation {
-    position: inherit;
-    transform: none;
-  }
+  
   .nav > li {
     margin-top: 0;
     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
