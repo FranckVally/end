@@ -7,12 +7,11 @@
 }
 
 
-
 .form-group {
-	grid-area: form
+	grid-area: form;
 }
 .contact {
-	grid-area: contact
+	grid-area: contact;
 }
 #adresse{
 	display: flex;
@@ -26,7 +25,7 @@
 	width: 50%;
 }
 #bloc-7 .bloc-lg .row {
-	display: grid
+	display: grid;
 }
 
 
