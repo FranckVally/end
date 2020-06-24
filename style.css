@@ -484,7 +484,7 @@ h4 {
 }
 .black-background {
   background-color: rgb(165, 147, 99, 0.7);
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem;
 }
 .bold-link {
   font-weight: 900;
@@ -688,7 +688,9 @@ h4 {
 	}
 }
 @media (max-width:767px) {
-
+  .black-background {
+    padding: 2rem 1rem 2rem 1rem;
+}
 	.bloc-mob-center-text {
 		text-align: center
   }
