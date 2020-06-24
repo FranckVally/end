@@ -553,7 +553,7 @@ h4 {
 		background-attachment: scroll
 	}
 }
-@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px) {
 	.b-parallax {
 		background-attachment: scroll
 	}
@@ -735,12 +735,10 @@ a[data-lightbox]:hover::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-}
+  }
 
 a[data-lightbox]:hover img {
   opacity: 0.6;
-  -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
 }
 
