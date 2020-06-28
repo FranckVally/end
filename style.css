@@ -13,18 +13,22 @@ button {
   transition: all 0.3s ease-in-out;
   outline: 0 !important ;
   font-size: 1rem;
+  font-weight: bolder !important;
+
 }
+
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  background-color: #f3976c !important;
-}
+  color: #f3976b !important;
+ } 
 
 .bloc {
   width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
-  padding: 0 50px;
+  padding: 0;
   background-size: cover;
   position: relative;
 }
@@ -380,7 +384,7 @@ a[data-lightbox]:hover::before {
   margin-left: -25px;
   border-radius: 50%;
   background: rgb(0, 0, 0, 0.6);
-  color: #fff;
+  color: #fff !important;
   font-weight: 100;
   z-index: 1;
   position: absolute;
@@ -408,7 +412,7 @@ a[data-lightbox]:hover img {
 .btn,
 a,
 h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -448,8 +452,9 @@ p {
    margin: auto auto auto auto;
   }
 h2 {
-  font-size: 22px;
+  font-size: 1.5rem;
   line-height: 1.4em;
+  color: #f3976c !important;
 }
 h3 {
   font-size: 15px;
@@ -463,7 +468,7 @@ h3 {
   box-shadow: 0 0 0 #000;
 }
 h1 {
-  color: #333 !important ;
+  color: #f3976c!important;
 }
 h4 {
   color: #333 !important ;
@@ -500,7 +505,7 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: #fff !important ;
+  color: white ;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
@@ -821,4 +826,14 @@ a[data-lightbox]:hover img {
   padding: 0;
   color: rgba(0, 0, 0, .5);
   background: none;
+}
+.blockcitation{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+  color: #000;
+  font-size:1.5rem;
+  font-style: italic; 
 }
